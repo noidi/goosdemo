@@ -43,7 +43,7 @@ public class SlowlyWarmingGreeterTest {
     }
 
     @Test
-    public void shouldGreetPeopleHappilyAfterTheFiveTimes() {
+    public void shouldGreetPeopleHappilyAfterFiveTimes() {
         // Given
         given(meetingHistory.timesMet("John")).willReturn(5);
 
